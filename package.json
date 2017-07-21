@@ -9,14 +9,13 @@
     "node-gyp": "node-gyp",
     "emcc-path": "emcc-path",
     "copyasm": "copyasm",
-
     "install": "autogypi && node-gyp configure build"
   },
   "author": "Joseph Malloch",
   "license": "LGPL-3.0",
   "dependencies": {
     "autogypi": "^0.2.2",
-    "nbind": "^0.3.5",
-    "node-gyp": "^3.4.0"
+    "nbind": "^0.3.13",
+    "node-gyp": "^3.6.2"
   }
 }
