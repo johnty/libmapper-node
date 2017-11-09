@@ -112,7 +112,10 @@ while (!maps.done) {
     var dst = map.destination(0).signal();
     console.log("  "+src.device().name+"/"+src.name+" -> "+dst.device().name+"/"+dst.name);
 }
-
+src.free();
+dst.free();
+dev.free();
+net.free();
 //
 //
 //var objectType = {
